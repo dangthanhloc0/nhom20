@@ -1,24 +1,84 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giới Thiệu Bản Thân</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        section {
+            padding: 40px 20px;
+            margin: 20px auto;
+            background: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            max-width: 800px;
+        }
+
+        section h2 {
+            color: #ff7e5f;
+            margin-bottom: 20px;
+        }
+
+        section#about img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 20px;
+        }
+
+        section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        section ul li {
+            background: #ff7e5f;
+            color: white;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        a {
+            color: #ff7e5f;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
+
 <body>
     <header>
         <h1>Giới Thiệu Bản Thân</h1>
     </header>
-    
+
     <section id="about">
         <h2>Thông Tin Cá Nhân</h2>
-        <img src="avatar.jpg" alt="Ảnh đại diện">
+        <img src="../assert/image/TaBinhMinh.png" alt="Ảnh đại diện">
         <p>Họ tên: Nguyễn Văn A</p>
         <p>Sở thích: Lập trình, đọc sách, chơi thể thao</p>
         <p>Định hướng nghề nghiệp: Full-stack Developer</p>
     </section>
-    
+
     <section id="education">
         <h2>Quá Trình Học Tập</h2>
         <ul>
@@ -28,7 +88,7 @@
             <li>Trí tuệ nhân tạo</li>
         </ul>
     </section>
-    
+
     <section id="skills">
         <h2>Kỹ Năng Đạt Được</h2>
         <ul>
@@ -37,7 +97,7 @@
             <li>AI/ML: TensorFlow, Scikit-learn</li>
         </ul>
     </section>
-    
+
     <section id="projects">
         <h2>Dự Án Cá Nhân</h2>
         <ul>
@@ -46,13 +106,14 @@
             <li>Chatbot hỗ trợ học tập</li>
         </ul>
     </section>
-    
+
     <section id="contact">
         <h2>Liên Hệ</h2>
         <p>Email: nguyenvana@example.com</p>
-        <p>LinkedIn: linkedin.com/in/nguyenvana</p>
-        <p>GitHub: github.com/nguyenvana</p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/nguyenvana" target="_blank">linkedin.com/in/nguyenvana</a></p>
+        <p>GitHub: <a href="https://github.com/nguyenvana" target="_blank">github.com/nguyenvana</a></p>
         <p><a href="cv.pdf" target="_blank">Tải CV</a></p>
     </section>
 </body>
+
 </html>
